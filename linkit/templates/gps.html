@@ -1,0 +1,22 @@
+<! doctype html >
+<html>
+        <head>
+                <title>gps</title>
+                <meta charset='utf-8'>
+        </head>
+        <body>
+                <p>Hello World<p/>
+		<table border="1">
+			<tr>
+				<td>gps</td><td>time</td>
+			<tr>
+			{% for i in gps  %}
+				<tr>
+				<td>{{i.gps}} </td><td>{{i.time}}</td>
+				</tr>
+			{% endfor  %}
+		</table>
+        </body>
+</html>
+
+
